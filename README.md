@@ -36,6 +36,17 @@ public class EasyRuleTest {
 
 
     }
+}
+
+@Component
+@Slf4j
+public class Log {
+
+    public void log(String message) {
+        log.info(message);
+    }
+
+}
 ```
 
 3. 规则配置文件
