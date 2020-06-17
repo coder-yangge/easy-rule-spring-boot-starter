@@ -13,7 +13,7 @@
        skip-on-first-non-triggered-rule: false
        rules:
          - rule-id: "test"
-           rule-file-location: "classpath:rule.json"
+           rule-file-location: "classpath:rule.json" #规则配置文件
            rule-config-type: JSON
            rule-factory-type: SPEL
    ```
